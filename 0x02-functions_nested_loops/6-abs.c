@@ -7,7 +7,6 @@
  *
  * Return: absolute value.
  */
-
 int _abs(int i)
 
 {
