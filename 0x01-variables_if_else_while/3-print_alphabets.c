@@ -7,22 +7,19 @@
 
 int main(void)
 {
-	char c;
+	char a = 97;
+	char A = 65;
 
-	char d;
-
-	c = 's';
-	d = 'A';
-	while
-		(c <= 'z'){
-			putchar(c);
-			c++;
+		while (a <= 122)
+		{
+			putchar(a);
+			a = a + 1;
 		}
-	while
-		(d <= 'z'){
-			putchar(c);
-			d++;
-		}
-	return (0);
-}
-
+		while (A <= 90)
+	{
+		putchar(A);
+		A = A + 1;
+	}
+		putchar('\n');
+		return (0);
+	}
