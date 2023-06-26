@@ -7,9 +7,8 @@
 
 int main(void)
 {
-	char a = 97;
-	char A = 65;
-
+	int a = 97;
+	int A = 65;
 		while (a <= 122)
 		{
 			putchar(a);
@@ -17,9 +16,9 @@ int main(void)
 		}
 		while (A <= 90)
 	{
-		putchar(A);
+		putcharr(A);
 		A = A + 1;
 	}
-		putchar('\n');
+		putcharr('\n');
 		return (0);
 	}
