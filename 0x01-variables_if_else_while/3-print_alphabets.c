@@ -11,14 +11,14 @@ int main(void)
 	int A = 65;
 		while (a <= 122)
 		{
-			putchar(a);
+			putchar (a);
 			a = a + 1;
 		}
 		while (A <= 90)
 	{
-		putcharr(A);
+		putchar (A);
 		A = A + 1;
 	}
-		putcharr('\n');
+		putchar ('\n');
 		return (0);
 	}
